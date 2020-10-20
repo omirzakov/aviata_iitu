@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <title>Services</title>
+</head>
+
+<body style="background-color: black;">
+    <header class="header">
+        <div class="header-logo">
+            <div class="logo">
+            </div>
+            <p>SUNQAR AVIALINES</p>
+        </div>
+        <div class="header-nav">
+            <div>
+                <a href="index.html">Home</a>
+            </div>
+            <div>
+                <a href="#">Services</a>
+            </div>
+            <div>
+                <a href="about.html">About</a>
+            </div>
+            <div>
+                <a href="information.html">FAQ</a>
+            </div>
+            <div>
+                <a href="sign_in.html">Sign in</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="about">
+        <video autoplay muted loop id="background-video">
+            <source src="video/videoplayback.mp4">
+        </video>
+        <header class="about-header">
+            <h2>О компании</h2>
+
+            <div class="about-info-list">
+                <p>«Sunqar avialines» — казахстанский сервис онлайн-бронирования и покупки авиа- и Ж/Д билетов. Мы
+                    работаем с 2013
+                    года, и сейчас продаем более 300 000 билетов ежемесячно.</p>
+                <p>
+                    Наша миссия — создавать технологии для сближения людей и культур.
+                </p>
+                <p>«Sunqar начала свою работу 9 июля 2013 года в небольшом алматинском офисе. Новая компания, которая
+                    состояла из 3 человек с первого же дня начала принимать заявки на покупку авиабилетов через сайт.
+                </p>
+
+                <p>Наша компания появилась благодаря объединениям усилий туристической компании «Шах Тревел», работающей
+                    на рынке с 1997 года, и студии веб-разработки «Глатис», чей проект «Тикетон» стал первым в
+                    Казахстане сервисом в сфере онлайн-продаж билетов в кино.</p>
+
+                <p>В 2014 году появилось первое мобильное приложение «Sunqar для Android и IOS. В октябре этого же года
+                    Aviata запустила сервис по покупке ж/д билетов по Казахстану от Қазақстан темір жолы (КТЖ). Долгое
+                    время особенностью нашего сервиса была возможность быстро оформить возврат билетов онлайн, без
+                    необходимости ехать на вокзал или железнодорожную кассу. В 2019 году наше приложение заняло 7 место
+                    в Топ-30 мобильных приложений Казахстана по версии Forbes Kazakhstan.</p>
+            </div>
+        </header>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <ul>
+                <a href="#">Главная</a>
+                <a href="#">Контакты</a>
+                <a href="#">О нас</a>
+            </ul>
+        </div>
+        <div>
+            <h2>SUNQAR AVIALINES</h2>
+        </div>
+        <div>
+            <div id="map"></div>
+        </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript">
+        var map;
+
+        DG.then(function () {
+            map = DG.map('map', {
+                center: [54.98, 82.89],
+                zoom: 13
+            });
+        });
+    </script>
+</body>
+
+</html>
