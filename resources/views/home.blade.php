@@ -65,8 +65,8 @@
                 </div>
                 <div class="flights-item">
                     <a href="#">
-                        <span>Алматы → Талдыкорган</span>
-                        <span class="price">от 3900тг</span>
+                        <span>Алматы → Нур-Султан</span>
+                        <span class="price">от 6900тг</span>
                     </a>
                 </div>
                 <div class="flights-item">
