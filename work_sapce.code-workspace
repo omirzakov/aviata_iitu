@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\copy\\sunqar_avialines\\app"
+		},
+		{
+			"path": "..\\copy\\sunqar_avialines\\bootstrap"
+		},
+		{
+			"path": "..\\copy\\sunqar_avialines\\config"
+		},
+		{
+			"path": "..\\copy\\sunqar_avialines\\database"
+		},
+		{
+			"path": "..\\copy\\sunqar_avialines\\node_modules"
+		},
+		{
+			"path": "..\\copy\\sunqar_avialines\\public"
+		},
+		{
+			"path": "..\\copy\\sunqar_avialines\\resources"
+		},
+		{
+			"path": "..\\copy\\sunqar_avialines\\routes"
+		},
+		{
+			"path": "..\\copy\\sunqar_avialines\\storage"
+		},
+		{
+			"path": "..\\copy\\sunqar_avialines\\tests"
+		},
+		{
+			"path": "..\\copy\\sunqar_avialines\\vendor"
+		}
+	],
+	"settings": {}
+}
